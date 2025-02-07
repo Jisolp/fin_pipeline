@@ -1,0 +1,16 @@
+2025-02-06 14:15:00,317- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPX&apikey=I7Z06PXKE9B0GBIQ
+2025-02-06 14:15:00,502- ERROR - Unexpected error:module 'datetime' has no attribute 'now'
+2025-02-06 14:15:45,597- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPX&apikey=I7Z06PXKE9B0GBIQ
+2025-02-06 14:15:45,762- INFO - API reponse status code: 200 at 2025-02-06 14:15:45.762440
+2025-02-06 14:15:45,762- ERROR - Error in getting data: None
+2025-02-06 14:19:26,163- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-06 14:19:26,464- INFO - API reponse status code: 200 at 2025-02-06 14:19:26.464586
+2025-02-06 14:19:26,483- INFO - data fetched and saved
+2025-02-06 21:33:50,355- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-06 21:33:51,232- INFO - API reponse status code: 200 at 2025-02-06 21:33:51.232500
+2025-02-06 21:33:51,244- INFO - data fetched and saved
+2025-02-06 21:34:46,189- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-06 21:34:46,801- INFO - API reponse status code: 200 at 2025-02-06 21:34:46.801797
+2025-02-06 21:34:46,812- INFO - data fetched and saved
+2025-02-06 21:34:46,822- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-06 21:34:49,285- INFO - uploaded data/raw/sp500_raw.csv to fin-market-data/raw/sp500_raw.csv
