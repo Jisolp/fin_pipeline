@@ -1,0 +1,128 @@
+2025-02-07 08:29:17,079- INFO - loading raw_data/sp500_raw.csv...
+2025-02-07 08:29:17,080- ERROR - Error occured: [Errno 2] No such file or directory: 'raw_data/sp500_raw.csv'
+2025-02-07 08:29:33,230- INFO - loading raw/sp500_raw.csv...
+2025-02-07 08:29:33,231- ERROR - Error occured: [Errno 2] No such file or directory: 'raw/sp500_raw.csv'
+2025-02-07 08:29:47,411- INFO - loading data/raw/sp500_raw.csv...
+2025-02-07 08:29:47,418- INFO - checking for misisng colums...
+2025-02-07 08:29:47,419- ERROR - column open not found in the data
+2025-02-07 08:31:09,116- INFO - loading data/raw/sp500_raw.csv...
+2025-02-07 08:31:09,122- INFO - checking for misisng colums...
+2025-02-07 08:31:09,124- INFO - checking for missing values...
+2025-02-07 08:31:09,127- INFO - missing values:
+ Unnamed: 0    0
+1. open       0
+2. high       0
+3. low        0
+4. close      0
+5. volume     0
+dtype: int64
+2025-02-07 08:31:09,131- INFO - data processed and saved
+2025-02-07 08:32:32,015- INFO - loading data/raw/sp500_raw.csv...
+2025-02-07 08:32:32,022- INFO - checking for misisng colums...
+2025-02-07 08:32:32,023- INFO - checking for missing values...
+2025-02-07 08:32:32,025- INFO - missing values:
+ date         0
+1. open      0
+2. high      0
+3. low       0
+4. close     0
+5. volume    0
+dtype: int64
+2025-02-07 08:32:32,026- INFO - standardizing {col} numeric format
+2025-02-07 08:32:32,026- ERROR - Error occured: to_numeric() got an unexpected keyword argument 'error'
+2025-02-07 08:32:41,258- INFO - loading data/raw/sp500_raw.csv...
+2025-02-07 08:32:41,260- INFO - checking for misisng colums...
+2025-02-07 08:32:41,260- INFO - checking for missing values...
+2025-02-07 08:32:41,261- INFO - missing values:
+ date         0
+1. open      0
+2. high      0
+3. low       0
+4. close     0
+5. volume    0
+dtype: int64
+2025-02-07 08:32:41,261- INFO - standardizing {col} numeric format
+2025-02-07 08:32:41,261- ERROR - Error occured: to_numeric() got an unexpected keyword argument 'error'
+2025-02-07 08:32:43,329- INFO - loading data/raw/sp500_raw.csv...
+2025-02-07 08:32:43,331- INFO - checking for misisng colums...
+2025-02-07 08:32:43,331- INFO - checking for missing values...
+2025-02-07 08:32:43,332- INFO - missing values:
+ date         0
+1. open      0
+2. high      0
+3. low       0
+4. close     0
+5. volume    0
+dtype: int64
+2025-02-07 08:32:43,332- INFO - standardizing 1. open numeric format
+2025-02-07 08:32:43,332- ERROR - Error occured: to_numeric() got an unexpected keyword argument 'error'
+2025-02-07 08:33:27,476- INFO - loading data/raw/sp500_raw.csv...
+2025-02-07 08:33:27,481- INFO - checking for misisng colums...
+2025-02-07 08:33:27,483- INFO - checking for missing values...
+2025-02-07 08:33:27,485- INFO - missing values:
+ date         0
+1. open      0
+2. high      0
+3. low       0
+4. close     0
+5. volume    0
+dtype: int64
+2025-02-07 08:33:27,485- INFO - standardizing 1. open numeric format
+2025-02-07 08:33:27,487- INFO - standardizing 2. high numeric format
+2025-02-07 08:33:27,488- INFO - standardizing 3. low numeric format
+2025-02-07 08:33:27,489- INFO - standardizing 4. close numeric format
+2025-02-07 08:33:27,491- INFO - standardizing 5. volume numeric format
+2025-02-07 08:33:27,501- INFO - data processed and saved
+2025-02-07 08:36:00,564- INFO - loading data/raw/sp500_raw.csv...
+2025-02-07 08:36:00,569- INFO - checking for misisng colums...
+2025-02-07 08:36:00,570- INFO - checking for missing values...
+2025-02-07 08:36:00,572- INFO - missing values:
+ date         0
+1. open      0
+2. high      0
+3. low       0
+4. close     0
+5. volume    0
+dtype: int64
+2025-02-07 08:36:00,572- INFO - standardizing 1. open numeric format
+2025-02-07 08:36:00,579- INFO - standardizing 2. high numeric format
+2025-02-07 08:36:00,582- INFO - standardizing 3. low numeric format
+2025-02-07 08:36:00,583- INFO - standardizing 4. close numeric format
+2025-02-07 08:36:00,584- INFO - standardizing 5. volume numeric format
+2025-02-07 08:36:00,587- INFO - data processed and saved
+2025-02-07 08:36:23,126- INFO - loading data/raw/sp500_raw.csv...
+2025-02-07 08:36:23,132- INFO - checking for misisng colums...
+2025-02-07 08:36:23,134- INFO - checking for missing values...
+2025-02-07 08:36:23,136- INFO - missing values:
+ date         0
+1. open      0
+2. high      0
+3. low       0
+4. close     0
+5. volume    0
+dtype: int64
+2025-02-07 08:36:23,136- INFO - standardizing 1. open numeric format
+2025-02-07 08:36:23,141- INFO - standardizing 2. high numeric format
+2025-02-07 08:36:23,141- INFO - standardizing 3. low numeric format
+2025-02-07 08:36:23,142- INFO - standardizing 4. close numeric format
+2025-02-07 08:36:23,143- INFO - standardizing 5. volume numeric format
+2025-02-07 08:36:23,145- INFO - data processed and saved
+2025-02-07 08:46:23,920- INFO - loading data/raw/sp500_raw.csv...
+2025-02-07 08:46:23,923- INFO - checking for misisng colums...
+2025-02-07 08:46:23,925- INFO - checking for missing values...
+2025-02-07 08:46:23,927- INFO - missing values:
+ Unnamed: 0    0
+1. open       0
+2. high       0
+3. low        0
+4. close      0
+5. volume     0
+dtype: int64
+2025-02-07 08:46:23,928- INFO - standardizing 1. open numeric format
+2025-02-07 08:46:23,931- INFO - standardizing 2. high numeric format
+2025-02-07 08:46:23,933- INFO - standardizing 3. low numeric format
+2025-02-07 08:46:23,934- INFO - standardizing 4. close numeric format
+2025-02-07 08:46:23,935- INFO - standardizing 5. volume numeric format
+2025-02-07 08:46:23,935- INFO - Checking for negative prices...
+2025-02-07 08:46:23,936- INFO - Checking for outliers in volume...
+2025-02-07 08:46:23,939- INFO - data processed and saved

@@ -14,3 +14,75 @@
 2025-02-06 21:34:46,812- INFO - data fetched and saved
 2025-02-06 21:34:46,822- INFO - Found credentials in shared credentials file: ~/.aws/credentials
 2025-02-06 21:34:49,285- INFO - uploaded data/raw/sp500_raw.csv to fin-market-data/raw/sp500_raw.csv
+2025-02-07 08:38:34,453- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:38:34,779- INFO - API reponse status code: 200 at 2025-02-07 08:38:34.779137
+2025-02-07 08:38:34,790- INFO - data fetched and saved
+2025-02-07 08:38:34,800- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-07 08:38:35,679- INFO - uploaded data/processed/sp500_processed.csv to fin-market-data/processed/sp500_processed.csv
+2025-02-07 08:46:53,675- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:46:53,981- INFO - API reponse status code: 200 at 2025-02-07 08:46:53.981476
+2025-02-07 08:46:53,991- INFO - data fetched and saved
+2025-02-07 08:46:54,000- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-07 08:46:54,846- INFO - uploaded data/processed/sp500_processed.csv to fin-market-data/processed/sp500_processed.csv
+2025-02-07 08:48:58,095- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:48:58,376- INFO - API reponse status code: 200 at 2025-02-07 08:48:58.376373
+2025-02-07 08:48:58,387- INFO - data fetched and saved
+2025-02-07 08:48:58,396- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-07 08:48:59,455- INFO - uploaded data/processed/sp500_processed.csv to fin-market-data/processed/sp500_processed.csv
+2025-02-07 08:49:38,358- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:49:38,632- INFO - API reponse status code: 200 at 2025-02-07 08:49:38.632811
+2025-02-07 08:49:38,649- INFO - data fetched and saved
+2025-02-07 08:49:38,657- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-07 08:49:39,498- INFO - uploaded data/processed/sp500_processed.csv to fin-market-data/20250207_084938_data/processed/sp500_processed.csv
+2025-02-07 08:51:27,583- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:51:28,025- INFO - API reponse status code: 200 at 2025-02-07 08:51:28.025869
+2025-02-07 08:51:28,037- INFO - data fetched and saved
+2025-02-07 08:51:28,047- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-07 08:51:28,903- INFO - uploaded data/processed/sp500_processed.csv to fin-market-data/data/processed/sp500_processed.csv/20250207_085128
+2025-02-07 08:53:12,742- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:53:13,084- INFO - API reponse status code: 200 at 2025-02-07 08:53:13.084436
+2025-02-07 08:53:13,106- INFO - data fetched and saved
+2025-02-07 08:53:13,116- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-07 08:53:13,956- INFO - uploaded data/processed/sp500_processed.csv to fin-market-data/data/processed/sp500_processed.csv/20250207_085313
+2025-02-07 08:53:56,659- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:53:57,129- INFO - API reponse status code: 200 at 2025-02-07 08:53:57.129262
+2025-02-07 08:53:57,140- INFO - data fetched and saved
+2025-02-07 08:53:57,149- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-07 08:53:57,985- INFO - uploaded data/processed/sp500_processed.csv to fin-market-data/20250207_085357
+2025-02-07 08:56:12,069- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:56:12,362- INFO - API reponse status code: 200 at 2025-02-07 08:56:12.362567
+2025-02-07 08:56:12,378- INFO - data fetched and saved
+2025-02-07 08:56:12,387- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-07 08:56:12,482- INFO - Error uploading: 'str' object has no attribute 'copy'
+2025-02-07 08:56:46,840- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:56:47,138- INFO - API reponse status code: 200 at 2025-02-07 08:56:47.138576
+2025-02-07 08:56:47,149- INFO - data fetched and saved
+2025-02-07 08:56:47,158- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-07 08:56:47,243- INFO - Error uploading: 'str' object has no attribute 'copy'
+2025-02-07 08:57:25,633- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:57:25,940- INFO - API reponse status code: 200 at 2025-02-07 08:57:25.940435
+2025-02-07 08:57:25,957- INFO - data fetched and saved
+2025-02-07 08:57:59,691- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:57:59,983- INFO - API reponse status code: 200 at 2025-02-07 08:57:59.982989
+2025-02-07 08:58:00,007- INFO - data fetched and saved
+2025-02-07 08:59:25,450- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:59:25,793- INFO - API reponse status code: 200 at 2025-02-07 08:59:25.793243
+2025-02-07 08:59:25,803- INFO - data fetched and saved
+2025-02-07 08:59:53,867- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 08:59:54,170- INFO - API reponse status code: 200 at 2025-02-07 08:59:54.170698
+2025-02-07 08:59:54,180- INFO - data fetched and saved
+2025-02-07 09:00:56,708- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 09:00:57,242- INFO - API reponse status code: 200 at 2025-02-07 09:00:57.242137
+2025-02-07 09:00:57,258- INFO - data fetched and saved
+2025-02-07 09:00:57,266- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-07 09:02:45,388- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 09:02:45,747- INFO - API reponse status code: 200 at 2025-02-07 09:02:45.747112
+2025-02-07 09:02:45,758- INFO - data fetched and saved
+2025-02-07 09:02:45,768- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-07 09:02:46,607- INFO - uploaded data/processed/sp500_processed.csv to fin-market-data/processed/20250207_090245
+2025-02-07 09:04:48,195- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-07 09:04:48,493- INFO - API reponse status code: 200 at 2025-02-07 09:04:48.493044
+2025-02-07 09:04:48,509- INFO - data fetched and saved
+2025-02-07 09:04:48,519- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-07 09:04:49,375- INFO - uploaded data/raw/sp500_raw.csv to fin-market-data/raw/20250207_090448
+2025-02-07 09:04:50,104- INFO - uploaded data/processed/sp500_processed.csv to fin-market-data/processed/20250207_090449
