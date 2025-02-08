@@ -24,15 +24,15 @@ def uploadToS3(fileName, bucketName, objectName = None):
         logging.info(f"Error uploading: {e}")
 
 
-if __name__ == '__main__':
-    API_KEY = os.getenv('API_KEY')
-    if not API_KEY:
-        logging.error("API key not found")
-        exit()
-    fetchData(API_KEY)
-    bucketName = 'fin-market-data'
-    rawData = os.path.join('data', 'raw', 'sp500_raw.csv')
-    processData = os.path.join('data','processed','sp500_processed.csv')
+# if __name__ == '__main__':
+#     API_KEY = os.getenv('API_KEY')
+#     if not API_KEY:
+#         logging.error("API key not found")
+#         exit()
+#     fetchData(API_KEY)
+#     bucketName = 'fin-market-data'
+#     rawData = os.path.join('data', 'raw', 'sp500_raw.csv')
+#     processData = os.path.join('data','processed','sp500_processed.csv')
     
-    uploadToS3(rawData, bucketName)
-    uploadToS3(processData, bucketName)
+#     uploadToS3(rawData, bucketName)
+#     uploadToS3(processData, bucketName)

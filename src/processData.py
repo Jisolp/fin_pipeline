@@ -53,17 +53,17 @@ def processData(rawData, cleanedData):
             vol99th = cleanDf['5. volume'].quantile(.99)
             cleanDf = cleanDf[cleanDf['5. volume'] <= vol99th]
 
-        #save data 
+        #save data
         os.makedirs(os.path.join('data','processed'), exist_ok=True)
         df.to_csv(os.path.join('data','processed','sp500_processed.csv'))
         logging.info('data processed and saved')
     except Exception as e:
         logging.error(f"Error occured: {e}")
     
-if __name__ == "__main__":
-    # File paths
-    raw_data_path = "data/raw/sp500_raw.csv"  # Path to the raw data CSV
-    cleaned_data_path = "data/processed/sp500_processed.csv"  # Where to save the cleaned data
+# if __name__ == "__main__":
+#     # File paths
+#     raw_data_path = "data/raw/sp500_raw.csv"  # Path to the raw data CSV
+#     cleaned_data_path = "data/processed/sp500_processed.csv"  # Where to save the cleaned data
 
-    # Run the data processing function
-    processData(raw_data_path, cleaned_data_path)
+#     # Run the data processing function
+#     processData(raw_data_path, cleaned_data_path)
