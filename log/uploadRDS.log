@@ -1,0 +1,112 @@
+2025-02-10 21:56:00,861- INFO - Connecting to RDS
+2025-02-10 21:56:00,862- ERROR - Unexpected error: {e}
+2025-02-10 21:56:43,469- INFO - Connecting to RDS
+2025-02-10 21:56:43,469- ERROR - Unexpected error: {e}
+2025-02-10 21:57:50,436- INFO - Connecting to RDS
+2025-02-10 21:57:50,437- ERROR - Unexpected error: {e}
+2025-02-10 21:58:01,929- INFO - Connecting to RDS
+2025-02-10 21:58:01,932- ERROR - Unexpected error: invalid dsn: invalid connection option "dbName"
+
+2025-02-10 22:02:33,411- INFO - Connecting to RDS
+2025-02-10 22:02:34,402- ERROR - Unexpected error: syntax error at or near "-"
+LINE 1: CREATE DATABASE fin-data;
+                           ^
+
+2025-02-10 22:02:43,532- INFO - Connecting to RDS
+2025-02-10 22:02:44,475- ERROR - Unexpected error: syntax error at or near "-"
+LINE 1: CREATE DATABASE fin-data;
+                           ^
+
+2025-02-10 22:02:50,001- INFO - Connecting to RDS
+2025-02-10 22:02:50,901- ERROR - Unexpected error: syntax error at or near "-"
+LINE 1: CREATE DATABASE fin-data;
+                           ^
+
+2025-02-10 22:03:15,868- INFO - Connecting to RDS
+2025-02-10 22:03:16,818- ERROR - Unexpected error: CREATE DATABASE cannot run inside a transaction block
+
+2025-02-10 22:05:10,094- INFO - Connecting to RDS
+2025-02-10 22:05:11,225- INFO - Database fin_db_data created
+2025-02-10 22:05:11,226- ERROR - Unexpected error: invalid dsn: invalid connection option "dbNnme"
+
+2025-02-10 22:05:11,226- INFO - RDS connection closed
+2025-02-10 22:06:10,097- INFO - Connecting to RDS
+2025-02-10 22:06:10,847- INFO - Database fin_db_data already exists
+2025-02-10 22:06:11,661- ERROR - Unexpected error: syntax error at or near "1."
+LINE 5:         1. open NUMERIC,
+                ^
+
+2025-02-10 22:06:11,662- INFO - RDS connection closed
+2025-02-10 22:07:54,877- INFO - Connecting to RDS
+2025-02-10 22:07:55,731- INFO - Database fin_db_data already exists
+2025-02-10 22:07:56,520- INFO - Ensured table financial_data exists
+2025-02-10 22:07:56,524- INFO - SQL insert query prepared: INSERT INTO financial_data(, date, 1. open, 2. high, 3. low, 4. close, 5. volume) VALUES (%s, %s, %s, %s, %s, %s, %s)
+2025-02-10 22:07:56,606- ERROR - Unexpected error: syntax error at or near ","
+LINE 1: INSERT INTO financial_data(, date, 1. open, 2. high, 3. low,...
+                                   ^
+
+2025-02-10 22:07:56,607- INFO - RDS connection closed
+2025-02-10 22:13:54,741- INFO - Connecting to RDS
+2025-02-10 22:13:55,496- INFO - Database fin_db_data already exists
+2025-02-10 22:13:56,286- INFO - Ensured table financial_data exists
+2025-02-10 22:13:56,287- INFO - SQL insert query prepared: INSERT INTO financial_data(date, 1. open, 2. high, 3. low, 4. close, 5. volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 22:13:56,369- ERROR - Unexpected error: syntax error at or near "1."
+LINE 1: INSERT INTO financial_data(date, 1. open, 2. high, 3. low, 4...
+                                         ^
+
+2025-02-10 22:13:56,370- INFO - RDS connection closed
+2025-02-10 22:15:12,623- INFO - Connecting to RDS
+2025-02-10 22:15:13,379- INFO - Database fin_db_data already exists
+2025-02-10 22:15:14,126- INFO - Ensured table financial_data exists
+2025-02-10 22:15:14,128- INFO - SQL insert query prepared: INSERT INTO financial_data(date, 1. open, 2. high, 3. low, 4. close, 5. volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 22:15:14,207- ERROR - Unexpected error: syntax error at or near "1."
+LINE 1: INSERT INTO financial_data(date, 1. open, 2. high, 3. low, 4...
+                                         ^
+
+2025-02-10 22:15:14,208- INFO - RDS connection closed
+2025-02-10 22:15:38,104- INFO - Connecting to RDS
+2025-02-10 22:15:38,805- INFO - Database fin_db_data already exists
+2025-02-10 22:15:39,553- INFO - Ensured table financial_data exists
+2025-02-10 22:15:39,554- INFO - SQL insert query prepared: INSERT INTO financial_data(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 22:15:47,789- INFO - Data from, data/processed/sp500_processed.csv loaded to RDS table financial_data
+2025-02-10 22:15:47,791- INFO - RDS connection closed
+2025-02-10 22:20:17,334- INFO - Connecting to RDS
+2025-02-10 22:20:18,134- INFO - Database fin_db_data already exists
+2025-02-10 22:20:18,878- INFO - Ensured table financial_data exists
+2025-02-10 22:20:18,879- INFO - SQL insert query prepared: INSERT INTO financial_data(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 22:20:27,155- INFO - Data from, data/processed/sp500_processed.csv loaded to RDS table financial_data
+2025-02-10 22:20:27,158- INFO - RDS connection closed
+2025-02-10 22:26:00,277- INFO - Connecting to RDS
+2025-02-10 22:26:01,093- ERROR - Unexpected error: syntax error at or near "-"
+LINE 1: CREATE DATABASE fin-db;
+                           ^
+
+2025-02-10 22:26:01,093- INFO - RDS connection closed
+2025-02-10 22:26:14,165- INFO - Connecting to RDS
+2025-02-10 22:26:15,004- INFO - Database fin_db created
+2025-02-10 22:26:15,777- INFO - Ensured table financial_table exists
+2025-02-10 22:26:15,779- INFO - SQL insert query prepared: INSERT INTO financial_table(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 22:26:23,842- INFO - Data from data/processed/sp500_processed.csv loaded to RDS table financial_table
+2025-02-10 22:26:23,844- INFO - RDS connection closed
+2025-02-10 22:31:17,263- INFO - Connecting to RDS
+2025-02-10 22:31:18,026- INFO - Database fin_db already exists
+2025-02-10 22:31:18,855- INFO - Ensured table financial_table exists
+2025-02-10 22:31:18,941- INFO - Table financial_table exists in the database.
+2025-02-10 22:31:18,943- INFO - SQL insert query prepared: INSERT INTO financial_table(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 22:31:27,176- INFO - Data from data/processed/sp500_processed.csv loaded to RDS table financial_table
+2025-02-10 22:31:27,177- INFO - RDS connection closed
+2025-02-10 22:32:07,638- INFO - Connecting to RDS
+2025-02-10 22:32:08,387- INFO - Database fin_db already exists
+2025-02-10 22:32:09,130- INFO - Table financial_table exists
+2025-02-10 22:32:09,211- INFO - Table financial_table exists in the database.
+2025-02-10 22:32:09,212- INFO - SQL insert query prepared: INSERT INTO financial_table(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 22:32:17,436- INFO - Data from data/processed/sp500_processed.csv loaded to RDS table financial_table
+2025-02-10 22:32:17,438- INFO - RDS connection closed
+2025-02-10 22:35:59,546- INFO - Connecting to RDS
+2025-02-10 22:36:00,327- INFO - Database fin_db already exists
+2025-02-10 22:36:00,328- INFO - Connected to fin_db
+2025-02-10 22:36:01,068- INFO - Table financial_table exists
+2025-02-10 22:36:01,158- INFO - Table financial_table exists in the database.
+2025-02-10 22:36:01,159- INFO - SQL insert query prepared: INSERT INTO financial_table(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 22:36:09,307- INFO - Data from data/processed/sp500_processed.csv loaded to RDS table financial_table
+2025-02-10 22:36:09,310- INFO - RDS connection closed
