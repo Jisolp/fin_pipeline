@@ -1,0 +1,60 @@
+2025-02-10 16:34:55,436- INFO - loading data/raw/sp500_raw.csv...
+2025-02-10 16:34:55,442- INFO - checking for misisng colums...
+2025-02-10 16:34:55,444- INFO - checking for missing values...
+2025-02-10 16:34:55,446- INFO - missing values:
+ Unnamed: 0    0
+1. open       0
+2. high       0
+3. low        0
+4. close      0
+5. volume     0
+dtype: int64
+2025-02-10 16:34:55,447- INFO - standardizing 1. open numeric format
+2025-02-10 16:34:55,455- INFO - standardizing 2. high numeric format
+2025-02-10 16:34:55,455- INFO - standardizing 3. low numeric format
+2025-02-10 16:34:55,456- INFO - standardizing 4. close numeric format
+2025-02-10 16:34:55,457- INFO - standardizing 5. volume numeric format
+2025-02-10 16:34:55,457- INFO - Checking for negative prices...
+2025-02-10 16:34:55,458- INFO - Checking for outliers in volume...
+2025-02-10 16:34:55,472- INFO - data processed and saved
+2025-02-10 16:38:57,309- INFO - loading data/raw/sp500_raw.csv...
+2025-02-10 16:38:57,312- ERROR - Error occured: read_csv() got an unexpected keyword argument 'index'
+2025-02-10 16:39:11,812- INFO - loading data/raw/sp500_raw.csv...
+2025-02-10 16:39:11,817- INFO - checking for misisng colums...
+2025-02-10 16:39:11,817- INFO - checking for missing values...
+2025-02-10 16:39:11,819- INFO - missing values:
+ 1. open      0
+2. high      0
+3. low       0
+4. close     0
+5. volume    0
+dtype: int64
+2025-02-10 16:39:11,819- INFO - standardizing 1. open numeric format
+2025-02-10 16:39:11,821- INFO - standardizing 2. high numeric format
+2025-02-10 16:39:11,822- INFO - standardizing 3. low numeric format
+2025-02-10 16:39:11,823- INFO - standardizing 4. close numeric format
+2025-02-10 16:39:11,824- INFO - standardizing 5. volume numeric format
+2025-02-10 16:39:11,824- INFO - Checking for negative prices...
+2025-02-10 16:39:11,825- INFO - Checking for outliers in volume...
+2025-02-10 16:39:11,829- INFO - data processed and saved
+2025-02-10 16:40:01,835- INFO - loading data/raw/sp500_raw.csv...
+2025-02-10 16:40:01,844- ERROR - Error occured: Length mismatch: Expected axis has 5 elements, new values have 6 elements
+2025-02-10 16:40:39,060- INFO - loading data/raw/sp500_raw.csv...
+2025-02-10 16:40:39,065- INFO - checking for misisng colums...
+2025-02-10 16:40:39,067- INFO - checking for missing values...
+2025-02-10 16:40:39,069- INFO - missing values:
+ date         0
+1. open      0
+2. high      0
+3. low       0
+4. close     0
+5. volume    0
+dtype: int64
+2025-02-10 16:40:39,069- INFO - standardizing 1. open numeric format
+2025-02-10 16:40:39,072- INFO - standardizing 2. high numeric format
+2025-02-10 16:40:39,073- INFO - standardizing 3. low numeric format
+2025-02-10 16:40:39,074- INFO - standardizing 4. close numeric format
+2025-02-10 16:40:39,075- INFO - standardizing 5. volume numeric format
+2025-02-10 16:40:39,076- INFO - Checking for negative prices...
+2025-02-10 16:40:39,076- INFO - Checking for outliers in volume...
+2025-02-10 16:40:39,081- INFO - data processed and saved

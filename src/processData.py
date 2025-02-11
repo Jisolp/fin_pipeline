@@ -11,6 +11,7 @@ def processData(rawData, cleanedData):
     try: 
         logging.info(f'loading {rawData}...')
         df = pd.read_csv(rawData)
+        df.columns = ["date", "1. open", "2. high", "3. low", "4. close", "5. volume"]
 
         #cleaning data - checking for missing columns (alert only)
         cols = ['1. open','2. high','3. low','4. close','5. volume']
@@ -29,8 +30,8 @@ def processData(rawData, cleanedData):
         #standardizing format - dates
         if '1. date' in cleanDf.columns:
             logging.info("Standardizing date format...")
-            cleanDf.index = pd.to_datetime(cleanDf.index,error = 'coerce')
-            cleanDf = cleanDf.dropna(subset=['date'])
+            cleanDf['date'] = pd.to_datetime(cleanDf.index,error = 'coerce')
+            cleanDf['date'] = cleanDf.dropna(subset=['date'])
 
         #standardizing format - converting number values to numeric 
         cols = ['1. open','2. high','3. low','4. close','5. volume']
