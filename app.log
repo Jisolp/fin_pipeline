@@ -1,0 +1,76 @@
+2025-02-10 23:16:16,875- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-10 23:16:17,208- INFO - API reponse status code: 200 at 2025-02-10 23:16:17.208238
+2025-02-10 23:16:17,234- INFO - data fetched and saved
+2025-02-10 23:17:53,934- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-10 23:17:54,200- INFO - API reponse status code: 200 at 2025-02-10 23:17:54.200520
+2025-02-10 23:17:54,213- INFO - data fetched and saved
+2025-02-10 23:17:54,222- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-10 23:17:55,628- INFO - uploaded data/raw/sp500_raw.csv to fin-market-data/raw/20250210_231754
+2025-02-10 23:17:56,331- INFO - uploaded data/processed/sp500_processed.csv to fin-market-data/processed/20250210_231755
+2025-02-11 00:15:46,703- INFO - Fetching data...
+2025-02-11 00:15:46,705- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-11 00:15:46,998- INFO - API reponse status code: 200 at 2025-02-11 00:15:46.998857
+2025-02-11 00:15:47,015- INFO - data fetched and saved
+2025-02-11 00:15:47,015- INFO - Processing data...
+2025-02-11 00:15:47,015- INFO - loading data/raw/sp500_raw.csv...
+2025-02-11 00:15:47,019- INFO - Checking for misisng colums...
+2025-02-11 00:15:47,020- INFO - Checking for missing values...
+2025-02-11 00:15:47,021- INFO - Missing values:
+ date      0
+open      0
+high      0
+low       0
+close     0
+volume    0
+dtype: int64
+2025-02-11 00:15:47,022- INFO - Standardizing open numeric format
+2025-02-11 00:15:47,024- INFO - Standardizing high numeric format
+2025-02-11 00:15:47,025- INFO - Standardizing low numeric format
+2025-02-11 00:15:47,026- INFO - Standardizing close numeric format
+2025-02-11 00:15:47,027- INFO - Standardizing volume numeric format
+2025-02-11 00:15:47,027- INFO - Checking for negative prices...
+2025-02-11 00:15:47,028- INFO - Checking for outliers in volume...
+2025-02-11 00:15:47,030- INFO - data processed and saved
+2025-02-11 00:15:47,030- INFO - Uploading to S3...
+2025-02-11 00:15:47,044- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-11 00:15:47,907- INFO - uploaded data/raw/sp500_raw.csv to fin-market-data/raw/20250211_001547
+2025-02-11 00:15:48,631- INFO - uploaded data/processed/sp500_processed.csv to fin-market-data/processed/20250211_001547
+2025-02-11 00:15:48,634- INFO - Uploading to RDS...
+2025-02-11 00:15:48,635- ERROR - Error in processing: 'function' object has no attribute 'uploadToRDS'
+2025-02-11 00:16:06,338- INFO - Fetching data...
+2025-02-11 00:16:06,338- INFO - Initalizaing request to https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=I7Z06PXKE9B0GBIQ
+2025-02-11 00:16:06,748- INFO - API reponse status code: 200 at 2025-02-11 00:16:06.748733
+2025-02-11 00:16:06,759- INFO - data fetched and saved
+2025-02-11 00:16:06,760- INFO - Processing data...
+2025-02-11 00:16:06,760- INFO - loading data/raw/sp500_raw.csv...
+2025-02-11 00:16:06,763- INFO - Checking for misisng colums...
+2025-02-11 00:16:06,765- INFO - Checking for missing values...
+2025-02-11 00:16:06,766- INFO - Missing values:
+ date      0
+open      0
+high      0
+low       0
+close     0
+volume    0
+dtype: int64
+2025-02-11 00:16:06,767- INFO - Standardizing open numeric format
+2025-02-11 00:16:06,769- INFO - Standardizing high numeric format
+2025-02-11 00:16:06,770- INFO - Standardizing low numeric format
+2025-02-11 00:16:06,770- INFO - Standardizing close numeric format
+2025-02-11 00:16:06,771- INFO - Standardizing volume numeric format
+2025-02-11 00:16:06,772- INFO - Checking for negative prices...
+2025-02-11 00:16:06,772- INFO - Checking for outliers in volume...
+2025-02-11 00:16:06,774- INFO - data processed and saved
+2025-02-11 00:16:06,774- INFO - Uploading to S3...
+2025-02-11 00:16:06,783- INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-02-11 00:16:07,621- INFO - uploaded data/raw/sp500_raw.csv to fin-market-data/raw/20250211_001606
+2025-02-11 00:16:08,321- INFO - uploaded data/processed/sp500_processed.csv to fin-market-data/processed/20250211_001607
+2025-02-11 00:16:08,326- INFO - Uploading to RDS...
+2025-02-11 00:16:08,326- INFO - Connecting to RDS
+2025-02-11 00:16:09,177- INFO - Database fin_db already exists
+2025-02-11 00:16:09,178- INFO - Connected to fin_db
+2025-02-11 00:16:09,922- INFO - Table financial_table exists
+2025-02-11 00:16:09,923- INFO - SQL insert query prepared: INSERT INTO financial_table(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-11 00:16:18,076- INFO - Data from data/processed/sp500_processed.csv loaded to RDS table financial_table
+2025-02-11 00:16:18,078- INFO - RDS connection closed
+2025-02-11 00:16:18,078- INFO - All tasks completed successfully.

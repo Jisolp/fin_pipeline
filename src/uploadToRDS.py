@@ -76,7 +76,6 @@ def uploadToRDS(processedFile):
 
         table_name = "financial_table"
         createTable(cursor,table_name)
-        checkTableExists(cursor, table_name)
 
         with open(processedFile, mode = 'r') as csvFile:
             reader = csv.reader(csvFile)

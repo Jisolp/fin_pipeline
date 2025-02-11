@@ -61,10 +61,10 @@ def processData(rawData, cleanedData):
     except Exception as e:
         logging.error(f"Error occured: {e}")
     
-if __name__ == "__main__":
-    # File paths
-    raw_data_path = "data/raw/sp500_raw.csv"  # Path to the raw data CSV
-    cleaned_data_path = "data/processed/sp500_processed.csv"  # Where to save the cleaned data
+# if __name__ == "__main__":
+#     # File paths
+#     raw_data_path = "data/raw/sp500_raw.csv"  # Path to the raw data CSV
+#     cleaned_data_path = "data/processed/sp500_processed.csv"  # Where to save the cleaned data
 
-    # Run the data processing function
-    processData(raw_data_path, cleaned_data_path)
+#     # Run the data processing function
+#     processData(raw_data_path, cleaned_data_path)

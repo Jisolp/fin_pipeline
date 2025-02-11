@@ -1,7 +1,7 @@
 import boto3
 import logging 
 import datetime 
-from src.fetchData import fetchData
+# from fetchData import fetchData
 import os
 from dotenv import load_dotenv
 

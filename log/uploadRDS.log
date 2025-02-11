@@ -110,3 +110,51 @@ LINE 1: CREATE DATABASE fin-db;
 2025-02-10 22:36:01,159- INFO - SQL insert query prepared: INSERT INTO financial_table(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
 2025-02-10 22:36:09,307- INFO - Data from data/processed/sp500_processed.csv loaded to RDS table financial_table
 2025-02-10 22:36:09,310- INFO - RDS connection closed
+2025-02-10 22:55:21,300- INFO - Connecting to RDS
+2025-02-10 22:55:22,128- INFO - Database fin_db already exists
+2025-02-10 22:55:22,129- INFO - Connected to fin_db
+2025-02-10 22:55:22,857- INFO - Table financial_table exists
+2025-02-10 22:55:22,858- ERROR - Unexpected error: name 'checkTableExists' is not defined
+2025-02-10 22:55:22,858- INFO - RDS connection closed
+2025-02-10 22:55:32,504- INFO - Connecting to RDS
+2025-02-10 22:55:33,183- INFO - Database fin_db already exists
+2025-02-10 22:55:33,184- INFO - Connected to fin_db
+2025-02-10 22:55:33,911- INFO - Table financial_table exists
+2025-02-10 22:55:33,912- INFO - SQL insert query prepared: INSERT INTO financial_table(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 22:55:42,041- INFO - Data from data/processed/sp500_processed.csv loaded to RDS table financial_table
+2025-02-10 22:55:42,043- INFO - RDS connection closed
+2025-02-10 23:03:59,459- INFO - Connecting to RDS
+2025-02-10 23:04:00,230- INFO - Database fin_db already exists
+2025-02-10 23:04:00,231- INFO - Connected to fin_db
+2025-02-10 23:04:00,966- INFO - Table financial_table exists
+2025-02-10 23:04:00,967- INFO - SQL insert query prepared: INSERT INTO financial_table(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 23:04:09,103- INFO - Data from data/processed/sp500_processed.csv loaded to RDS table financial_table
+2025-02-10 23:04:09,105- INFO - RDS connection closed
+2025-02-10 23:05:47,355- INFO - Connecting to RDS
+2025-02-10 23:05:48,083- INFO - Database fin_db already exists
+2025-02-10 23:05:48,084- INFO - Connected to fin_db
+2025-02-10 23:05:48,843- INFO - Table financial_table exists
+2025-02-10 23:05:48,844- INFO - SQL insert query prepared: INSERT INTO financial_table(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 23:05:57,026- INFO - Data from data/processed/sp500_processed.csv loaded to RDS table financial_table
+2025-02-10 23:05:57,027- INFO - RDS connection closed
+2025-02-10 23:07:21,637- INFO - Connecting to RDS
+2025-02-10 23:07:22,351- INFO - Database fin_db already exists
+2025-02-10 23:07:22,351- INFO - Connected to fin_db
+2025-02-10 23:07:23,078- INFO - Table financial_table exists
+2025-02-10 23:07:23,080- INFO - SQL insert query prepared: INSERT INTO financial_table(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 23:07:31,245- INFO - Data from data/processed/sp500_processed.csv loaded to RDS table financial_table
+2025-02-10 23:07:31,248- INFO - RDS connection closed
+2025-02-10 23:10:50,276- INFO - Connecting to RDS
+2025-02-10 23:10:51,005- INFO - Database fin_db already exists
+2025-02-10 23:10:51,006- INFO - Connected to fin_db
+2025-02-10 23:10:51,728- INFO - Table financial_table exists
+2025-02-10 23:10:51,729- INFO - SQL insert query prepared: INSERT INTO financial_table(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 23:10:59,877- INFO - Data from data/processed/sp500_processed.csv loaded to RDS table financial_table
+2025-02-10 23:10:59,888- INFO - RDS connection closed
+2025-02-10 23:18:05,479- INFO - Connecting to RDS
+2025-02-10 23:18:06,268- INFO - Database fin_db already exists
+2025-02-10 23:18:06,268- INFO - Connected to fin_db
+2025-02-10 23:18:07,002- INFO - Table financial_table exists
+2025-02-10 23:18:07,002- INFO - SQL insert query prepared: INSERT INTO financial_table(date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
+2025-02-10 23:18:15,693- INFO - Data from data/processed/sp500_processed.csv loaded to RDS table financial_table
+2025-02-10 23:18:15,704- INFO - RDS connection closed
